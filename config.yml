@@ -3,6 +3,7 @@ title: ErgoAlejandro
 paginate: 5
 theme: PaperMod
 
+canonifyURLs: true
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -17,13 +18,15 @@ minify:
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
     title: Ergo Alejandro
-    description: "ExampleSite description"
-    keywords: [Blog, Portfolio, PaperMod]
+    description: "Blog y muro personal de Ergo Alejandro"
+    keywords: [Blog, Portfolio, PaperMod, Linux, Mac, Diseño, Audiovisual]
     author: Me
-    # author: ["Me", "You"] # multiple authorses
+    # author: ["Ergo", "Alejandro"] # multiple authorses
     images: ["<link or path of image for opengraph, twitter-cards>"]
     DateFormat: "January 2, 2006"
-    defaultTheme: auto # dark, light
+    # defaultTheme: light
+    # defaultTheme: dark
+    defaultTheme: auto # to switch between dark or light according to browser theme
     disableThemeToggle: false
 
     ShowReadingTime: true
@@ -43,10 +46,10 @@ params:
         # disableHLJS: true # to disable highlight.js
         # disableFingerprinting: true
         favicon: "https://live.staticflickr.com/65535/51590636395_85f40e08e6_o.png"
-        favicon16x16: "<link / abs url>"
-        favicon32x32: "<link / abs url>"
-        apple_touch_icon: "<link / abs url>"
-        safari_pinned_tab: "<link / abs url>"
+        favicon16x16: "https://live.staticflickr.com/65535/51590636395_85f40e08e6_o.png"
+        favicon32x32: "https://live.staticflickr.com/65535/51590636395_85f40e08e6_o.png"
+        apple_touch_icon: "https://live.staticflickr.com/65535/51590636395_85f40e08e6_o.png"
+        safari_pinned_tab: "https://live.staticflickr.com/65535/51590636395_85f40e08e6_o.png"
 
     label:
         text: "@ergoalejandro"
@@ -67,18 +70,25 @@ params:
               url: proyectos
             - name: Blog
               url: blog
-            - name: SobreMi
+            - name: Sobre Mi
               url: sobremi
-    socialIcons: 
-        - name: twitter
-          url: www.twitter.com
-        - name: youtube
-          url: www.youtube.com
-        - name: github
-          url: www.twitter.com
-        - name: mastodon
-          url: www.youtube.com
 
+# home-info mode
+    homeInfoParams:
+        Title: "Soy Ergo Alejandro \U0001f996"
+        Content: "Estudiante de Comunicación Audiovisual alojado en Peru"
+
+    socialIcons:
+        - name: github
+          url: "https://github.com/ErgoAlejandro"
+        - name: twitter
+          url: "https://twitter.com/ergoalejandro"
+        - name: youtube
+          url: "https://www.youtube.com/channel/UCP45j6KPoaKo-fRNrQbwfJA"
+        - name: email
+          url: "mailto:ergoalejandro2004@gmail.com"
+        - name: mastodon
+          url: "https://mastodon.la/@ergoalejandro"
 menu:
     main:
         - identifier: Proyectos
@@ -89,10 +99,11 @@ menu:
           name: Blog
           url: /blog/
           weight: 20
-        - identifier: SobreMi
-          name: SobreMi
+        - identifier: Sobre Mi
+          name: Sobre Mi
           url: /sobremi/
           weight: 20              
+
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
 # markup:
