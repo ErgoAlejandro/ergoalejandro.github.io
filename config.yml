@@ -1,0 +1,104 @@
+baseURL: "https://examplesite.com/"
+title: ErgoAlejandro
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: UA-123-45
+
+minify:
+    disableXML: true
+    minifyOutput: true
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    title: ExampleSite
+    description: "ExampleSite description"
+    keywords: [Blog, Portfolio, PaperMod]
+    author: Me
+    # author: ["Me", "You"] # multiple authorses
+    images: ["<link or path of image for opengraph, twitter-cards>"]
+    DateFormat: "January 2, 2006"
+    defaultTheme: auto # dark, light
+    disableThemeToggle: false
+
+    ShowReadingTime: true
+    ShowShareButtons: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: false
+    disableSpecial1stPost: false
+    disableScrollToTop: false
+    comments: false
+    hidemeta: false
+    hideSummary: false
+    showtoc: false
+    tocopen: false
+
+    assets:
+        # disableHLJS: true # to disable highlight.js
+        # disableFingerprinting: true
+        favicon: "https://live.staticflickr.com/65535/51590636395_85f40e08e6_o.png"
+        favicon16x16: "<link / abs url>"
+        favicon32x32: "<link / abs url>"
+        apple_touch_icon: "<link / abs url>"
+        safari_pinned_tab: "<link / abs url>"
+
+    label:
+        text: "@ergoalejandro"
+        icon: "https://live.staticflickr.com/65535/51590636395_85f40e08e6_o.png"
+        iconHeight: 35
+
+    # profile-mode
+    profileMode:
+        enabled: true # needs to be explicitly set
+        title: "Soy Ergo Alejandro \U0001f996"
+        subtitle: "Estudiante de Comunicación Audiovisual alojado en Peru"
+        imageUrl: "https://live.staticflickr.com/65535/51590636395_85f40e08e6_o.png"
+        imageWidth: 120
+        imageHeight: 120
+        imageTitle: "Federgo tux"
+        buttons:
+            - name: Proyectos
+              url: proyectos
+            - name: Blog
+              url: blog
+            - name: SobreMi
+              url: sobremi
+    socialIcons: 
+        - name: twitter
+          url: www.twitter.com
+        - name: youtube
+          url: www.youtube.com
+        - name: github
+          url: www.twitter.com
+        - name: mastodon
+          url: www.youtube.com
+
+menu:
+    main:
+        - identifier: Proyectos
+          name: Proyectos
+          url: /proyectos/
+          weight: 10
+        - identifier: Blog
+          name: Blog
+          url: /blog/
+          weight: 20
+        - identifier: SobreMi
+          name: SobreMi
+          url: /sobremi/
+          weight: 20              
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+# pygmentsUseClasses: true
+# markup:
+#     highlight:
+#         # anchorLineNos: true
+#         codeFences: true
+#         guessSyntax: true
+#         lineNos: true
+#         style: monokai
