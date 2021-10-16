@@ -45,23 +45,23 @@ params:
     assets:
         # disableHLJS: true # to disable highlight.js
         # disableFingerprinting: true
-        favicon: "https://live.staticflickr.com/65535/51590636395_85f40e08e6_o.png"
-        favicon16x16: "https://live.staticflickr.com/65535/51590636395_85f40e08e6_o.png"
-        favicon32x32: "https://live.staticflickr.com/65535/51590636395_85f40e08e6_o.png"
-        apple_touch_icon: "https://live.staticflickr.com/65535/51590636395_85f40e08e6_o.png"
-        safari_pinned_tab: "https://live.staticflickr.com/65535/51590636395_85f40e08e6_o.png"
+        favicon: "https://i.imgur.com/YzWivD1.png"
+        favicon16x16: "https://i.imgur.com/YzWivD1.png"
+        favicon32x32: "https://i.imgur.com/YzWivD1.png"
+        apple_touch_icon: "https://i.imgur.com/YzWivD1.png"
+        safari_pinned_tab: "https://i.imgur.com/YzWivD1.png"
 
     label:
         text: "@ergoalejandro"
-        icon: "https://live.staticflickr.com/65535/51590636395_85f40e08e6_o.png"
-        iconHeight: 35
+        icon: "https://i.imgur.com/FrJsivg.png"
+        iconHeight: 34
 
     # profile-mode
     profileMode:
         enabled: true # needs to be explicitly set
         title: "Soy Ergo Alejandro \U0001f996"
-        subtitle: "Estudiante de Comunicación Audiovisual alojado en Peru"
-        imageUrl: "https://live.staticflickr.com/65535/51590636395_85f40e08e6_o.png"
+        subtitle: "Diseño Grafico publicitario y Comunicación Audiovisual en Peru"
+        imageUrl: "https://i.imgur.com/OT4bvEh.png"
         imageWidth: 120
         imageHeight: 120
         imageTitle: "Federgo tux"
