@@ -45,15 +45,15 @@ params:
     assets:
         # disableHLJS: true # to disable highlight.js
         # disableFingerprinting: true
-        favicon: "https://i.imgur.com/YzWivD1.png"
-        favicon16x16: "https://i.imgur.com/YzWivD1.png"
-        favicon32x32: "https://i.imgur.com/YzWivD1.png"
-        apple_touch_icon: "https://i.imgur.com/YzWivD1.png"
-        safari_pinned_tab: "https://i.imgur.com/YzWivD1.png"
+        favicon: "https://i.imgur.com/xU9tIdy.png"
+        favicon16x16: "https://i.imgur.com/xU9tIdy.png"
+        favicon32x32: "https://i.imgur.com/xU9tIdy.png"
+        apple_touch_icon: "https://i.imgur.com/xU9tIdy.png"
+        safari_pinned_tab: "https://i.imgur.com/xU9tIdy.png"
 
     label:
         text: "@ergoalejandro"
-        icon: "https://i.imgur.com/FrJsivg.png"
+        icon: "https://i.imgur.com/HqZvgLr.png"
         iconHeight: 34
 
     # profile-mode
@@ -76,7 +76,7 @@ params:
 # home-info mode
     homeInfoParams:
         Title: "Soy Ergo Alejandro \U0001f996"
-        Content: "Estudiante de Comunicación Audiovisual alojado en Peru"
+        Content: "Diseño Grafico publicitario y Comunicación Audiovisual en Peruu"
 
     socialIcons:
         - name: github
